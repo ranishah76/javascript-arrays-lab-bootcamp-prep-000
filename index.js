@@ -4,18 +4,22 @@ var kittens = ["Milo", "Otis", "Garfield", ]
 
 function destructivelyAppendKitten (Ralph) {
 kittens.push(Ralph)
+return kittens
 }
 
 function destructivelyPrependKitten (Bob) {
 kittens.unshift(Bob)
+return kittens
 }
 
 fuction destructivelyRemoveLastKitten (name) {
   kittens.pop ()
+  return kittens
 }
 
 function destructivelyRemoveFirstKitten (name) {
   kittens.shift ()
+  return kittens
 }
 
 function appendKitten (Broom) {
